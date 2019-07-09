@@ -1,0 +1,141 @@
+PHP:-
+.............................................................................
+it is web technology which povide server side script to create dynamic web application.
+
+PHP use design,database and script to develop application.
+
+for designing we will use HTML + JS + JQUERY+ CSS+ BOOTSTRAP
+
+for database PHP use MYSQL with SQL Query
+
+for script PHP use PHP Script
+
+............................................................................................................
+
+PHP history:-
+..............................................................................
+
+PHP means Personal Home Page .it was developed to create dynamic web page for job consulting application.
+
+it is devleoped by c ,pearl programming language.
+
+later on PHP script had been used in multiple application than PHP was declared as a Web technology and rename by HyperText Preprocessor.
+
+initial P means Personal Home Page.
+
+it was developed by rasmous lendrof in 1995.
+
+........................................................................................................
+
+Software Tools of PHP:-
+...............................................................................................
+
+1 XAMPP    X-ANY platform
+                  A - Apache Web Server
+                  M- MYSQL |MariaDB
+                  P- PHP
+                  P-Pearl 
+
+
+2 WAMP   W-Windows
+                  A
+                  M
+                  P  
+
+3 LAMP   L-Linux
+               A
+               M
+               P   
+
+
+4 MAMP   M-MAC
+                 A
+                 M
+                 P  
+
+............................................................................................,................
+..............................................................................................................
+
+Syntax of PHP Script:
+
+1 Common Tag
+
+   <?php
+       statements;
+       statements;
+
+    ?>
+
+
+2 SHORT TAG
+   <?
+
+    ?>
+
+ 
+.........................................................................................
+
+Step for PHP Program:-
+
+1 install XAMPP Server
+
+2 OPen XAMPP Control Panel and start apache
+
+3 OPen notepad and write code and save it using .php in c:/xampp/htdocs/folder
+
+4 open browser and type localhost/folder/filename
+
+
+
+
+
+Output Function in PHP?
+..........................................................................................
+1 echo:-
+
+it is used to display multiple statements using single statement.
+
+echo "hello" , " welcome ","how r u";
+
+2 print:-
+
+ it is used to display single statement only.
+
+ print "hello";
+
+3 printf:-
+
+  it is used to display formatted ouput using format specifier.
+  printf("%d",12)        
+  printf("%.3f",12.345)
+  printf("%s","hello")
+ 
+
+4 sprintf():-
+
+   it is used to return formatted output using format specifier.
+
+   $s=sprinf("%d",12);
+   echo $s;
+
+
+......................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
