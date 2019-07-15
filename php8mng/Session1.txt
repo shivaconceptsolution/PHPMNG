@@ -119,7 +119,36 @@ echo "hello" , " welcome ","how r u";
    echo $s;
 
 
-......................................................................
+................................................................................................................................
+
+Operator Concept in PHP:-
+.................................................
+it is used to perform operation using operand(Variable or Constant)
+
+Type of operator
+
+1 Binary:-
+it will work minimum two operand
+1.1 Arithmatic:- +,-,*,/,%
+1.2 Conditional:-  <,>,<=,>=,!=
+1.3 Comparision:-   ==
+1.4 Logical:-       &&(and),||(or),!(Not)
+1.5 Assignment
+    1.5.1 Simple   =
+    1.5.2 Complex  +=,-=,*=,/=,%= 
+
+2 Binary:-
+it will work using minimum two operand
+
+3 Ternary:-
+it will work using minimum three operator
+
+
+
+
+
+
+
 
 
 

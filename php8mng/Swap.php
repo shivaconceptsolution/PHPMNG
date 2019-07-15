@@ -4,8 +4,7 @@
 	<title></title>
 </head>
 <body>
-<form action="#" method="post">
-
+<form action="#" method="get">
 <input type="text" name="t1" placeholder="enter first number" />
 <br>
 <br>
@@ -17,10 +16,10 @@
 </form>
 <?php
 
-if(isset($_POST['btnsubmit']))
+if(isset($_GET['btnsubmit']))
 {
-   $a = $_POST['t1'];
-   $b = $_POST['t2'];
+   $a = $_GET['t1'];
+   $b = $_GET['t2'];
    echo "Before Swap a=$a and b=$b <br>";
    $a = $a+$b;
    $b = $a-$b;
