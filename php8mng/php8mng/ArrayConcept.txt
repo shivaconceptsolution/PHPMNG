@@ -1,0 +1,39 @@
+array concept in PHP:-
+.....................................................................................
+
+array is special type of variable which contain multiple values using base index 0 to size-1.
+
+it is a collection of similar and disimilar type of elements.
+
+array store element using proper sequence hence it is easy to display the elements.
+
+
+Syntax of array:-
+..............................................................
+
+$x = array(element1,element2,element3,element4)
+
+$x = array(11,23,"hello",true,12.34);  #disimilar type
+
+$x = array(12,23,34,45,11,67)   #similar type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

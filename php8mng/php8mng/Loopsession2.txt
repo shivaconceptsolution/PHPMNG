@@ -1,0 +1,50 @@
+Switch Statement:-
+it is used to solve option based statement .using this we can provide multiple options and switch statement execute particular option using optionvalue.
+
+
+switch(1)
+{
+    case 1:
+       statement
+       break
+    case 2:
+       statement
+       break
+    default:
+       statement
+       break
+
+}
+....................................................................
+Loop in PHP:-
+
+it is used to print large statement of data using single repetable block.
+
+
+Type of Loop in PHP:-
+
+1 Entry Control:-
+
+First Check Condition Than Execute Statements
+
+1.1   while
+1.2   for
+
+2 Exit Control:-
+
+First Execute Statement Than Check Condition
+
+2.1 do--while
+
+initialization;
+do
+{
+   statement;
+    increment;
+}while(condition);
+
+
+
+
+
+

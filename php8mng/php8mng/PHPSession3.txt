@@ -1,0 +1,81 @@
+while loop:-
+
+initialization;   i=1;
+condition;         i<=10
+iteration;          i++
+
+Syntax
+
+initialization;
+while(condition)
+{
+       statement;
+       increment;
+
+}
+.................................................................................................
+for loop:-
+.................................................................................................
+
+for(init;condition;iteration)
+{
+    statement;
+}
+.............................................................................................................
+...
+
+
+How many ways to implement thread in java?
+
+1 using Thread Class
+
+2 using Runnable Interface
+
+this interface provide thread features in any class.run() must be impelmented into class.
+
+we can perform multiple inheritance using Runnable Interface.
+it is not possible by Thread class.
+
+
+
+
+
+
+
+Thread Class:-
+
+class Classname extends Thread
+{
+   public void run()   //call when Thread will be executed
+   {
+
+   }
+
+}
+
+
+
+
+
+join() :  it is used to pause another threads unitll executing thread will complete.
+
+we can convert parallel exeuction of thread to step by step.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
