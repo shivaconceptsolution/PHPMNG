@@ -5,27 +5,34 @@
 </head>
 <body>
    <h1>Record Updated Here</h1>
+   <?php
+    include("conn.php");
+    $r = $_GET['q'];
+    $res = mysqli_query($conn,"select * from student where rno='$r'");
+    $x=mysqli_fetch_array($res);
+    ?>
+
 <form action="" method="post">
-<input type="text" name="txtrno" placeholder="Enter rollno" />
+<input type="text" name="txtrno" placeholder="Enter rollno" value="<?php echo $x[0]; ?>" readonly="true"/>
 <br>
 <br>
-<input type="text" name="txtname" placeholder="Enter name" />
+<input type="text" name="txtname" placeholder="Enter name"  value="<?php echo $x[1]; ?>"/>
 <br>
 <br>
-<input type="text" name="txtbranch" placeholder="Enter branch" />
+<input type="text" name="txtbranch" placeholder="Enter branch" value="<?php echo $x[2]; ?>" />
 <br>
 <br>
-<input type="text" name="txtfees" placeholder="Enter fees" />
+<input type="text" name="txtfees" placeholder="Enter fees" value="<?php echo $x[3]; ?>" />
 <br>
 <br>
 <input type="submit" name="btnsubmit" value="UPDATE" />
 </form>
 
-<a href="ViewStudent.php">View Student Record </a>
+
 <?php
 if(isset($_REQUEST['btnsubmit']))
 {
-   include("conn.php");
+  
    $rno=     $_REQUEST['txtrno'];
    $sname =  $_REQUEST['txtname'];
    $branch = $_REQUEST['txtbranch'];
@@ -34,7 +41,7 @@ if(isset($_REQUEST['btnsubmit']))
    $res = mysqli_query($conn,"update student set name='$sname',branch='$branch',fees='$fees' where rno='$rno'");
    if(mysqli_affected_rows($conn)>0)
    {
-   	echo "Data updated successfully";
+   	header('location:index.php');
    }
    else
    {
@@ -49,5 +56,7 @@ if(isset($_REQUEST['btnsubmit']))
 
 
 ?>
+<hr>
+<a href="index.php">View Student Record </a>
 </body>
 </html>

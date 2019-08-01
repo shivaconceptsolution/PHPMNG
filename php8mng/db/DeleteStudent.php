@@ -19,7 +19,7 @@ if(isset($_REQUEST['btnsubmit']))
 {
    $rno=     $_REQUEST['txtrno'];
   
-   $conn=mysqli_connect('localhost','root','','phpdb2');
+  include('conn.php');
    $res = mysqli_query($conn,"delete from student where rno='$rno'");
    if(mysqli_affected_rows($conn)>0)
    {

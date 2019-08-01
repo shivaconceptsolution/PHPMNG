@@ -1,5 +1,7 @@
+<center>
+	<h1>CRUD OPERATION</h1>
 <?php
-$conn=mysqli_connect('localhost','root','','phpdb2');
+include('conn.php');
 $res = mysqli_query($conn,"select * from student");
 echo "<table border='1'><tr><th>RNO</th><th>Name</th><th>Branch</th><th>Fees</th></tr>";
 while($x = mysqli_fetch_array($res))
@@ -10,3 +12,11 @@ echo "</table>";
 
 
 ?>
+<br>
+<a href="InsertStudent.php">CLICK TO ADD RECORD</a>
+<br>
+<a href="UpdateStudent.php">CLICK TO Update RECORD</a>
+<br>
+<a href="DeleteStudent.php">CLICK TO Delete RECORD</a>
+
+</center>
